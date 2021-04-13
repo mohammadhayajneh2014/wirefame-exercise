@@ -1,0 +1,103 @@
+* {
+    box-sizing:border-box ; 
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+    padding: 10px ;
+}
+header h1 {
+text-align: center;
+padding: 20px;
+background-color: blanchedalmond;
+
+}
+header nav{
+    background-color: #333;
+    color: #fff;
+}
+header nav ul{
+position: relative;
+
+}
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+ margin-left: 150px ;
+ padding:15px ;
+}
+main{
+    background-color: whitesmoke;
+    position: relative;
+}
+#img1 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+               
+}
+
+#img2{
+    display: block; 
+    margin-left: 200px;
+    margin-right: auto;
+}
+#img2:first-child {
+    display: inline-block;
+        margin-left: auto;
+         
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;         
+}
+ #img2 :last-child {
+    display: inline-block;
+        
+        margin-right: auto; 
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+ }
+ #img2:nth-child(2) {
+    display: inline-block;
+    
+    margin-right: auto; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;     
+ }
+ #img3 {
+    display: block; 
+    margin-left: 200px;
+    margin-right: auto;
+ }
+#img3 img{
+ display: inline-block;
+    
+    margin-right: auto; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;  
+}
+ #img3 p {
+
+    display:inline-block ;
+    width: 480px;
+    height:400px ;
+    text-align: justify;
+
+font-family: Arial;
+padding: 20px;
+background-color: whitesmoke;
+ }
+ footer p {
+
+    background-color: black;
+    color: coral;
+    text-align: center;
+    padding: 20px;
+ }
